@@ -1,0 +1,51 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>Temperatura MCE</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        {% block extrahead %}
+        {% endblock %}
+        <link rel="stylesheet" href="{% static 'css/Temperatura.css' %}"
+    </head>
+    <body>
+        <table style="width:100%">
+            <tr>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-default" href="/estadisticas/" role="button">Estadisticas</a>
+                        <a class="btn btn-default" href="/comunicaciones/" role="button">Comunicaciones</a>
+                        <a class="btn btn-default" href="/temperatura/" role="button">Temperatura</a>
+                        {% if user.is_authenticated %}
+                            <a class="btn btn-default" role="button" href="{% url 'logout' %}">&nbsp;<small>&nbsp;<span class="glyphicon glyphicon-log-in"></span></small></a>
+                        {% else %}
+                            <a class="btn btn-default" role="button" href="{% url 'logout' %}">Iniciar Sesión<small>&nbsp;<span class="glyphicon glyphicon-log-out"></span></small></a>
+                        {% endif %}
+                    </div>
+                </td>
+                <td align="right">
+                    {% if user.is_authenticated %}
+                        {{ user.username }}&nbsp{{ settings.AUTH_USER_MODEL }}
+                    {% else %}
+                        usuario no registrado
+                    {% endif %}                    
+                </td>
+            </tr>
+        </table>
+        <div class="posttitle">
+           <h1>Temperatura</a></h1>
+        </div>
+        <div class="btn-group" role="group" style="padding:8px" >
+            <a class="btn btn-default btn-sm" href="{% url '24hs' %}" role="button">24 hs</a>
+            <a class="btn btn-default btn-sm" href="{% url 'semana' %}" role="button">Semana</a>
+        </div>
+        <br>
+        <div class="content container">
+            <div class="row">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

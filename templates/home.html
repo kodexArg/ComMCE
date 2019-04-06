@@ -1,0 +1,16 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% block title %}MCE-Inicio{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+  <p>Usuario aceptado: {{ user.username }}</p>
+  <a class="btn btn-primary btn-sm" role="button" href="{% url 'logout' %}">desconectar</a>
+  <a class="btn btn-primary btn-sm" role="button" href="/temperatura/">ir al sitio</a>
+{% else %}
+  <p>No hay usuario logueado</p>
+  <a class="btn btn-primary btn-sm" role="button" href="/temperatura/">ir al sitio</a>
+  <a class="btn btn-primary btn-sm" role="button" href="{% url 'login' %}">login</a>
+{% endif %}
+{% endblock %}

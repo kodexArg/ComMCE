@@ -1,0 +1,71 @@
+h1 {
+    color: #ffffff;
+    font-family: garamond;
+    font-style: oblique 30deg;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-bottom: 0px; 
+}
+
+h2 {
+    color: #c25100;
+    font-family: garamond;
+    font-style: oblique 30deg;
+    font-weight: bolder;
+}
+
+h2 a {
+    color: #c25100;
+    font-family: garamond;
+    font-style: oblique 30deg;
+    font-weight: bolder;
+}
+
+.posttitle {
+    background-color: #c25100;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.post  {
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.date {
+    font-size: smaller;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+input, textarea {
+    border: 2px solid #c25100;
+    background-color: lightgoldenrodyellow;
+    -webkit-border-radius: 5px;
+    color: #c25100;
+}
+
+table, tr, td {
+    background-color: lightgoldenrodyellow; 
+    color: #c25100;
+    padding: 10px;
+}
+
+    /* default button */
+    .btn-default {
+        background-color: #FFF;
+        color: #6d2d00;
+        border-color: #adadad;
+        border-radius: 25px;
+    }
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default:active    {
+        background-color: #ebebeb;
+        color: #c25100;
+        border-color: #adadad;
+    }
+

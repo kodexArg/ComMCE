@@ -1,0 +1,59 @@
+{% extends 'Temperatura/base.html' %}
+{% load staticfiles %}
+
+{% block extrahead %}
+{% endblock %}
+
+{% block content %}
+
+    <div id="wrapper" style="position: relative; height: 50vh">
+        <canvas height="800" id="chart"></canvas>
+    </div>
+
+    <script type="text/javascript" src="{% static 'js/Chart.min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-colorschemes@latest/dist/chartjs-plugin-colorschemes.min.js"></script>
+    <script type="text/javascript">
+
+    new Chart(document.getElementById("chart"), {
+    type: 'line',
+    data: {
+        labels: {{ hor_lista }},
+        datasets: [     
+            {% for label in rpi_lista %}
+                {
+                    label: ["{{ label }}"],
+                    data: [
+                        {% for row in dataframe.iterrows %}
+                            {% if row.1.0 == label %}
+                                {{ row.1.1 }},
+                            {% endif %}
+                        {% endfor %}            
+                    ],
+                    pointBackgroundColor: [],
+                    pointBorderColor: [],
+                    fill: false
+                },
+            {% endfor %}
+        ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        title: {
+        display: false,
+        text: 'Temperatura capturada en las últimas 24 horas'
+        }
+    }
+    });
+
+    Chart.data.datasets[0].pointBackgroundColor[4] = "#cc00cc";
+    Chart.data.datasets[0].pointBorderColor[4] = "#cc0000";
+    Chart.update();
+
+    </script>
+    <hr>
+        <div>
+        última lectura: {{ ultimo }}
+    </div>
+
+{% endblock %}

@@ -1,0 +1,50 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>Comunicaciones MCE</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/Comunicaciones.css' %}"
+    </head>
+    <body>
+        <table style="width:100%">
+            <tr>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-default" href="/estadisticas/" role="button">Estadisticas</a>
+                        <a class="btn btn-default" href="/comunicaciones/" role="button">Comunicaciones</a>
+                        <a class="btn btn-default" href="/temperatura/" role="button">Temperatura</a>
+                        
+                        {% if user.is_authenticated %}
+                            <a class="btn btn-default" role="button" href="{% url 'logout' %}">&nbsp;<small>&nbsp;<span class="glyphicon glyphicon-log-in"></span></small></a>
+                        {% else %}
+                            <a class="btn btn-default" role="button" href="{% url 'logout' %}">Iniciar Sesión<small>&nbsp;<span class="glyphicon glyphicon-log-out"></span></small></a>
+                        {% endif %}
+                    </div>
+                </td>
+                <td align="right">
+                    {% if user.is_authenticated %}
+                        {{ user.username }}&nbsp{{ settings.AUTH_USER_MODEL }}
+                    {% else %}
+                        usuario no registrado
+                    {% endif %}                    
+                </td>
+            </tr>
+        </table>
+        <div class="posttitle">
+           <h1>Comunicaciones</a></h1>
+        </div>
+        <div class="btn-group" role="group" style="padding:8px" >
+            <a class="btn btn-default btn-sm" href="{% url 'post_new' %}" role="button">Nuevo Mensaje</a>
+        </div>
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                {% block content %}
+                {% endblock %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+{% extends 'Estadisticas/base.html' %}
+
+{% block googlechart %}
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart(){
+
+    // console.log(jQuery.parseJSON('{{ datos.0|escapejs }}'))
+
+    var data = new google.visualization.arrayToDataTable(
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+    );
+
+
+    var options = {'title':'Beneficios', 'width':550, 'height':400};
+    var chart = new google.visualization.BarChart(document.getElementById('chartdiv1'));
+    chart.draw(data, options);
+}
+</script>
+{% endblock %}
+
+{% block content%}
+
+    <div id="chartdiv1"></div>
+    <p>end</p>
+
+{% endblock %}
+
