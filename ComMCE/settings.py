@@ -97,8 +97,8 @@ DATABASES = {
         'NAME': 'db_temperatura',
         'USER': 'computer',
         'PASSWORD': 'Cc123456',
-        'HOST': '172.24.203.82',
-        # 'HOST': '127.0.0.1',
+        # 'HOST': '172.24.203.82',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
