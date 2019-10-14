@@ -1,0 +1,318 @@
+{
+  "build": "py36he6710b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "mysql-connector-c >=6.1.11,<6.1.12.0a0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/kodex/.conda/pkgs/mysqlclient-1.4.4-py36he6710b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/MySQLdb/__init__.py",
+    "lib/python3.6/site-packages/MySQLdb/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/__pycache__/_exceptions.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/__pycache__/compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/__pycache__/connections.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/__pycache__/converters.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/__pycache__/cursors.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/__pycache__/release.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/__pycache__/times.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/_exceptions.py",
+    "lib/python3.6/site-packages/MySQLdb/_mysql.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MySQLdb/compat.py",
+    "lib/python3.6/site-packages/MySQLdb/connections.py",
+    "lib/python3.6/site-packages/MySQLdb/constants/CLIENT.py",
+    "lib/python3.6/site-packages/MySQLdb/constants/CR.py",
+    "lib/python3.6/site-packages/MySQLdb/constants/ER.py",
+    "lib/python3.6/site-packages/MySQLdb/constants/FIELD_TYPE.py",
+    "lib/python3.6/site-packages/MySQLdb/constants/FLAG.py",
+    "lib/python3.6/site-packages/MySQLdb/constants/__init__.py",
+    "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/CLIENT.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/CR.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/ER.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/FIELD_TYPE.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/FLAG.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/MySQLdb/converters.py",
+    "lib/python3.6/site-packages/MySQLdb/cursors.py",
+    "lib/python3.6/site-packages/MySQLdb/release.py",
+    "lib/python3.6/site-packages/MySQLdb/times.py",
+    "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/LICENSE",
+    "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/METADATA",
+    "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/RECORD",
+    "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/WHEEL",
+    "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/top_level.txt"
+  ],
+  "fn": "mysqlclient-1.4.4-py36he6710b0_0.tar.bz2",
+  "license": "GPL-2.0",
+  "link": {
+    "source": "/home/kodex/.conda/pkgs/mysqlclient-1.4.4-py36he6710b0_0",
+    "type": 1
+  },
+  "md5": "3c4b17722653bb9487f474416ac525bb",
+  "name": "mysqlclient",
+  "package_tarball_full_path": "/home/kodex/.conda/pkgs/mysqlclient-1.4.4-py36he6710b0_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d07895cf7727980df92db9ec4ac0f808563da996fede7d701e3a13c8aa60ff50",
+        "sha256_in_prefix": "d07895cf7727980df92db9ec4ac0f808563da996fede7d701e3a13c8aa60ff50",
+        "size_in_bytes": 3159
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fea5e629b3ce90d592734461e45aab956f0b031174efb20f7d5f941d5375561c",
+        "sha256_in_prefix": "fea5e629b3ce90d592734461e45aab956f0b031174efb20f7d5f941d5375561c",
+        "size_in_bytes": 3508
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/__pycache__/_exceptions.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "eab7f8760fc1b42175e57f400da5b9c23f7629b9c84817b522a727d25f68d435",
+        "sha256_in_prefix": "eab7f8760fc1b42175e57f400da5b9c23f7629b9c84817b522a727d25f68d435",
+        "size_in_bytes": 3483
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/__pycache__/compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "582aed4be11bc0187fa85a4b77b896c1ed1c1191dc8b5d9a978807fa85298456",
+        "sha256_in_prefix": "582aed4be11bc0187fa85a4b77b896c1ed1c1191dc8b5d9a978807fa85298456",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/__pycache__/connections.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "85b455a0e78b88f2c6e19af691ff32339c97b82373e62cdafbf258aca5e6b565",
+        "sha256_in_prefix": "85b455a0e78b88f2c6e19af691ff32339c97b82373e62cdafbf258aca5e6b565",
+        "size_in_bytes": 11223
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/__pycache__/converters.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "149b7d0116d19947b1c6250911cb5f03a50921498f0cd7a9b5505a07bdf6b227",
+        "sha256_in_prefix": "149b7d0116d19947b1c6250911cb5f03a50921498f0cd7a9b5505a07bdf6b227",
+        "size_in_bytes": 3571
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/__pycache__/cursors.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "313fca8b1c72b59504205e22db356c79017407471cf922584be256e9f7feb4e9",
+        "sha256_in_prefix": "313fca8b1c72b59504205e22db356c79017407471cf922584be256e9f7feb4e9",
+        "size_in_bytes": 16392
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/__pycache__/release.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "915bd14fa7e84f7d3ec53f6894bb83ea2c955874951b8434d6ed669dd60a3509",
+        "sha256_in_prefix": "915bd14fa7e84f7d3ec53f6894bb83ea2c955874951b8434d6ed669dd60a3509",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/__pycache__/times.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "39053cc959d96211593c606c48b41e2e86fbedd10fa0b4ab6758d863ddc2309f",
+        "sha256_in_prefix": "39053cc959d96211593c606c48b41e2e86fbedd10fa0b4ab6758d863ddc2309f",
+        "size_in_bytes": 3572
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "f75620b448cdfb3fb600f10e3fcadf5c4c2366ad9aba388b4732144b58e84049",
+        "sha256_in_prefix": "f75620b448cdfb3fb600f10e3fcadf5c4c2366ad9aba388b4732144b58e84049",
+        "size_in_bytes": 2202
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/_mysql.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "d69cd000ded389eb89f76c2688bb2426be821aa2cd55f0f4c11d63d6c5888c1b",
+        "sha256_in_prefix": "d69cd000ded389eb89f76c2688bb2426be821aa2cd55f0f4c11d63d6c5888c1b",
+        "size_in_bytes": 77496
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/compat.py",
+        "path_type": "hardlink",
+        "sha256": "faefbdc70afddca95dd2566cea1c0ad5b9403e8038ab54249fa8a53c06446ae1",
+        "sha256_in_prefix": "faefbdc70afddca95dd2566cea1c0ad5b9403e8038ab54249fa8a53c06446ae1",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/connections.py",
+        "path_type": "hardlink",
+        "sha256": "a40ba3657cb1787c1039437ed44bbff75284248f8ce33d8f06b40b0f065a4c13",
+        "sha256_in_prefix": "a40ba3657cb1787c1039437ed44bbff75284248f8ce33d8f06b40b0f065a4c13",
+        "size_in_bytes": 12207
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/CLIENT.py",
+        "path_type": "hardlink",
+        "sha256": "3e84bf94d724e7300f59b8493ac575bdc28e9ea02a3ae4b80ac1d5b6f61af58f",
+        "sha256_in_prefix": "3e84bf94d724e7300f59b8493ac575bdc28e9ea02a3ae4b80ac1d5b6f61af58f",
+        "size_in_bytes": 667
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/CR.py",
+        "path_type": "hardlink",
+        "sha256": "95fc5f8a8345c1968541e805bb7f039f67a8017bfb85e2acc7e8938b58c508d6",
+        "sha256_in_prefix": "95fc5f8a8345c1968541e805bb7f039f67a8017bfb85e2acc7e8938b58c508d6",
+        "size_in_bytes": 2813
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/ER.py",
+        "path_type": "hardlink",
+        "sha256": "18cfe6818796c6faf523e19b953af442bdbacd0e4db75995505566326843c0ba",
+        "sha256_in_prefix": "18cfe6818796c6faf523e19b953af442bdbacd0e4db75995505566326843c0ba",
+        "size_in_bytes": 24873
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/FIELD_TYPE.py",
+        "path_type": "hardlink",
+        "sha256": "0d3070c11637a2e2add8dcd2d276583399a9d9285687eb3640cf229c3ef1afed",
+        "sha256_in_prefix": "0d3070c11637a2e2add8dcd2d276583399a9d9285687eb3640cf229c3ef1afed",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/FLAG.py",
+        "path_type": "hardlink",
+        "sha256": "83edd849211abbc2a48dc0c8ba20e123f344f94aeba9003a94238718a5b90389",
+        "sha256_in_prefix": "83edd849211abbc2a48dc0c8ba20e123f344f94aeba9003a94238718a5b90389",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "002539d9a2e0e46ef60def6b4466b7c0bf3e7d10df15c28297623ca5bae1c012",
+        "sha256_in_prefix": "002539d9a2e0e46ef60def6b4466b7c0bf3e7d10df15c28297623ca5bae1c012",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/CLIENT.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "10c826f6abf87acc2d033592d8c896c2c2ae85f39b2496a886c6af171930a4f7",
+        "sha256_in_prefix": "10c826f6abf87acc2d033592d8c896c2c2ae85f39b2496a886c6af171930a4f7",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/CR.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1575d2e8c1e3dba06cac97308a9fb611a6483fb4890d8df2a9077ad481ffc6f8",
+        "sha256_in_prefix": "1575d2e8c1e3dba06cac97308a9fb611a6483fb4890d8df2a9077ad481ffc6f8",
+        "size_in_bytes": 2946
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/ER.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9abf5cfe4b8242ffef677ea492084345e872e7a6c000c7112ad274eb6ac372cc",
+        "sha256_in_prefix": "9abf5cfe4b8242ffef677ea492084345e872e7a6c000c7112ad274eb6ac372cc",
+        "size_in_bytes": 30808
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/FIELD_TYPE.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bd6eb44e64e7ab69b4b935bc226f44000a1e98cac85adda0c26ab7cb3ae81ab",
+        "sha256_in_prefix": "4bd6eb44e64e7ab69b4b935bc226f44000a1e98cac85adda0c26ab7cb3ae81ab",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/FLAG.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f93e7027207e1c00966820afb7f99e9992bdae0266c35ec7021e1595a0c82423",
+        "sha256_in_prefix": "f93e7027207e1c00966820afb7f99e9992bdae0266c35ec7021e1595a0c82423",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/constants/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca5cc28bd210fe8b1befc0f83fb1412b7ac4ec6d70ed96965348f52b4d2a605b",
+        "sha256_in_prefix": "ca5cc28bd210fe8b1befc0f83fb1412b7ac4ec6d70ed96965348f52b4d2a605b",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/converters.py",
+        "path_type": "hardlink",
+        "sha256": "d73f3015a77f2981dbbb284c3d2887ee6e71a5f4937d86beeb01f98d00c5dad6",
+        "sha256_in_prefix": "d73f3015a77f2981dbbb284c3d2887ee6e71a5f4937d86beeb01f98d00c5dad6",
+        "size_in_bytes": 3352
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/cursors.py",
+        "path_type": "hardlink",
+        "sha256": "e45cfa53dd700a7de29c61b7954434afb3d34da7a02b171ec021ae6d3ff0f1c3",
+        "sha256_in_prefix": "e45cfa53dd700a7de29c61b7954434afb3d34da7a02b171ec021ae6d3ff0f1c3",
+        "size_in_bytes": 16298
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/release.py",
+        "path_type": "hardlink",
+        "sha256": "570d17fc56fa56ef1c99b03b9ea0e661b3326d3725b9f87185976936927e66b1",
+        "sha256_in_prefix": "570d17fc56fa56ef1c99b03b9ea0e661b3326d3725b9f87185976936927e66b1",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MySQLdb/times.py",
+        "path_type": "hardlink",
+        "sha256": "9eb812995c9adfd85338854891f265f8d032f5a13a015e141372978bf45ac550",
+        "sha256_in_prefix": "9eb812995c9adfd85338854891f265f8d032f5a13a015e141372978bf45ac550",
+        "size_in_bytes": 3504
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "sha256_in_prefix": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "size_in_bytes": 18092
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "08f1a3c04d2be981338e32c49da652f52497d35895d1bf848af21bf90fb5256d",
+        "sha256_in_prefix": "08f1a3c04d2be981338e32c49da652f52497d35895d1bf848af21bf90fb5256d",
+        "size_in_bytes": 3571
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "be21bc362acd15dd330f49b787b2c2d489b54123a76b88ffb57ab6f50fa76c86",
+        "sha256_in_prefix": "be21bc362acd15dd330f49b787b2c2d489b54123a76b88ffb57ab6f50fa76c86",
+        "size_in_bytes": 2431
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e19189150a458164bef4a0910fba520b78606adfb2f669adccababb185a7224b",
+        "sha256_in_prefix": "e19189150a458164bef4a0910fba520b78606adfb2f669adccababb185a7224b",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mysqlclient-1.4.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6db1b78ef08015f962b533774601d002f616f4e9ff1c76f8949b6fc740c7b440",
+        "sha256_in_prefix": "6db1b78ef08015f962b533774601d002f616f4e9ff1c76f8949b6fc740c7b440",
+        "size_in_bytes": 8
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mysqlclient",
+  "sha256": "0394ba9dfd7bace56fee4e9fc868df95ddfeb5cbf859f28294e862502f1e79bd",
+  "size": 83620,
+  "subdir": "linux-64",
+  "timestamp": 1569434320784,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/mysqlclient-1.4.4-py36he6710b0_0.tar.bz2",
+  "version": "1.4.4"
+}
